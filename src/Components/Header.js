@@ -9,18 +9,18 @@ import AddTranslation from '../pages/AddTranslation';
 function Header() {
   return (
     <Router>
-      <Container className="p-0" fluid={true}>
-
         <Navbar className="border-bottom" bg="transparant" expand="lg">
-          <Navbar.Brand>Arabisch Leren App</Navbar.Brand>
+          <Container className="p-0">
+            <Navbar.Brand>Arabisch Leren App</Navbar.Brand>
 
-          <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
-          <Navbar.Collapse id="navbar-toggle">
-            <Nav className="ml-auto">
-              <Link className="nav-link" to="/">Home</Link>
-              <Link className="nav-link" to="/add-translation">Add Translation</Link>
-            </Nav>
-          </Navbar.Collapse>
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle">
+              <Nav className="ml-auto">
+                <Link className="nav-link" to="/arabisch-leren-app/">Home</Link>
+                <Link className="nav-link" to="/arabisch-leren-app/add-translation">Add Translation</Link>
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
         </Navbar>
 
         <Switch>
@@ -31,7 +31,6 @@ function Header() {
             <AddTranslation />
           </Route>
         </Switch>      
-      </Container>
     </Router>
   );
 }

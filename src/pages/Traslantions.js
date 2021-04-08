@@ -13,7 +13,7 @@ class Traslations extends PureComponent {
             offset: 0,
             tableData: [],
             orgtableData: [],
-            perPage: 10,
+            perPage: 8,
             currentPage: 0
 		}
 
@@ -48,7 +48,7 @@ class Traslations extends PureComponent {
 
     getData() {
         axios
-            .get("https://sheet.best/api/sheets/34d3f928-d3c4-4ff1-a2ff-8af1f2c53ca5")
+            .get("https://sheet.best/api/sheets/20ea87ab-3cc5-41a7-a007-dbb4644c8923")
             .then(res => {
                 var data = res.data;
                 var slice = data.slice(this.state.offset, this.state.offset + this.state.perPage)
@@ -63,7 +63,7 @@ class Traslations extends PureComponent {
 
     render() {
         return(
-            <Container className="m-5">
+            <Container className="p-0 mt-5">
                 <h1>Traslantions page</h1>
                 <hr />
                 <Table striped bordered hover size="sm">
@@ -79,9 +79,9 @@ class Traslations extends PureComponent {
 							this.state.tableData.map((obj, i) => {
 								return (
 									<tr>
-											<td>{obj.arabisch}</td>
-											<td>{obj.uitspraak}</td>
 											<td>{obj.vertaling}</td>
+											<td>{obj.uitspraak}</td>
+											<td>{obj.arabisch}</td>
 									</tr>	
 								)
 							})
