@@ -24,10 +24,10 @@ function Header() {
         </Navbar>
 
         <Switch>
-          <Route path="/" exact>
+          <Route path="/arabisch-leren-app/" exact>
             <Translations />
           </Route>
-          <Route path="/add-translation">
+          <Route path="/arabisch-leren-app/add-translation">
             <AddTranslation />
           </Route>
         </Switch>      
