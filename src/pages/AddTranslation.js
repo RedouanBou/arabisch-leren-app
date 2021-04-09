@@ -63,7 +63,7 @@ class AddTranslation extends PureComponent {
         return(
             <Container className="p-0 m-5">
                 <Container className="m-5">
-                    <h1>Add Translation</h1>
+                    <h1>Voeg Arabisch Toe</h1>
                     <hr />
                     <Form className="form" onSubmit={this.handleSubmit.bind(this)}>
                         <Form.Group controlId="arabic">

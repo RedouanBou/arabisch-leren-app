@@ -64,7 +64,7 @@ class Traslations extends PureComponent {
     render() {
         return(
             <Container className="p-0 mt-5">
-                <h1>Traslantions page</h1>
+                <h1>Arabisch</h1>
                 <hr />
                 <Table striped bordered hover size="sm">
                     <thead>
