@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/arabisch-leren-app/static/css/main.20183daa.chunk.css",
-    "main.js": "/arabisch-leren-app/static/js/main.d605efda.chunk.js",
-    "main.js.map": "/arabisch-leren-app/static/js/main.d605efda.chunk.js.map",
-    "runtime-main.js": "/arabisch-leren-app/static/js/runtime-main.6ff6ff53.js",
-    "runtime-main.js.map": "/arabisch-leren-app/static/js/runtime-main.6ff6ff53.js.map",
+    "main.css": "/arabisch-leren-app/static/css/main.5788d0e9.chunk.css",
+    "main.js": "/arabisch-leren-app/static/js/main.7f606cb3.chunk.js",
+    "main.js.map": "/arabisch-leren-app/static/js/main.7f606cb3.chunk.js.map",
+    "runtime-main.js": "/arabisch-leren-app/static/js/runtime-main.78d9dcfe.js",
+    "runtime-main.js.map": "/arabisch-leren-app/static/js/runtime-main.78d9dcfe.js.map",
     "static/css/2.379a8125.chunk.css": "/arabisch-leren-app/static/css/2.379a8125.chunk.css",
-    "static/js/2.55df6aea.chunk.js": "/arabisch-leren-app/static/js/2.55df6aea.chunk.js",
-    "static/js/2.55df6aea.chunk.js.map": "/arabisch-leren-app/static/js/2.55df6aea.chunk.js.map",
-    "static/js/3.43c32843.chunk.js": "/arabisch-leren-app/static/js/3.43c32843.chunk.js",
-    "static/js/3.43c32843.chunk.js.map": "/arabisch-leren-app/static/js/3.43c32843.chunk.js.map",
+    "static/js/2.ab3534a6.chunk.js": "/arabisch-leren-app/static/js/2.ab3534a6.chunk.js",
+    "static/js/2.ab3534a6.chunk.js.map": "/arabisch-leren-app/static/js/2.ab3534a6.chunk.js.map",
+    "static/js/3.631bdfc8.chunk.js": "/arabisch-leren-app/static/js/3.631bdfc8.chunk.js",
+    "static/js/3.631bdfc8.chunk.js.map": "/arabisch-leren-app/static/js/3.631bdfc8.chunk.js.map",
     "index.html": "/arabisch-leren-app/index.html",
     "static/css/2.379a8125.chunk.css.map": "/arabisch-leren-app/static/css/2.379a8125.chunk.css.map",
-    "static/css/main.20183daa.chunk.css.map": "/arabisch-leren-app/static/css/main.20183daa.chunk.css.map",
-    "static/js/2.55df6aea.chunk.js.LICENSE.txt": "/arabisch-leren-app/static/js/2.55df6aea.chunk.js.LICENSE.txt"
+    "static/css/main.5788d0e9.chunk.css.map": "/arabisch-leren-app/static/css/main.5788d0e9.chunk.css.map",
+    "static/js/2.ab3534a6.chunk.js.LICENSE.txt": "/arabisch-leren-app/static/js/2.ab3534a6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ff6ff53.js",
+    "static/js/runtime-main.78d9dcfe.js",
     "static/css/2.379a8125.chunk.css",
-    "static/js/2.55df6aea.chunk.js",
-    "static/css/main.20183daa.chunk.css",
-    "static/js/main.d605efda.chunk.js"
+    "static/js/2.ab3534a6.chunk.js",
+    "static/css/main.5788d0e9.chunk.css",
+    "static/js/main.7f606cb3.chunk.js"
   ]
 }
